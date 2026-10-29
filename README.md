@@ -79,13 +79,13 @@ Open a terminal in the project root:
 
 ```bash
 cd backend
-python -m venv myvenv
+python -m venv myuppi
 ```
 
 On Windows Command Prompt:
 
 ```cmd
-myvenv\Scripts\activate
+myuppi\Scripts\activate
 ```
 
 Install the backend dependencies:
