@@ -1,0 +1,127 @@
+# ==========================================
+# PYTHON BACKEND
+# ==========================================
+
+# Virtual environments
+myvenv/
+myuppi/
+venv/
+.venv/
+env/
+
+# Python cache files
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+
+# Python build and distribution
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Testing and type-checking caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ==========================================
+# ENVIRONMENT VARIABLES AND SECRETS
+# ==========================================
+
+.env
+.env.*
+!.env.example
+
+# Private keys and certificates
+*.pem
+*.key
+*.p12
+*.pfx
+
+# ==========================================
+# REACT / VITE FRONTEND
+# ==========================================
+
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Build output
+frontend/dist/
+frontend/build/
+
+# Vite cache
+frontend/.vite/
+
+# Environment files
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# ==========================================
+# DATABASES AND LOCAL DATA
+# ==========================================
+
+# Local database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Database backups
+*.db-journal
+*.sqlite-journal
+*.bak
+*.backup
+
+# ==========================================
+# RAG DOCUMENTS AND GENERATED DATA
+# ==========================================
+
+# Uploaded documents
+backend/uploads/
+uploads/
+
+# Generated vector embeddings and indexes
+backend/vector_store/
+vector_store/
+
+# Chat histories
+backend/chat_history/
+chat_history/
+
+# Local document registries
+backend/documents.json
+documents.json
+
+# ==========================================
+# LOGS AND TEMPORARY FILES
+# ==========================================
+
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+
+# ==========================================
+# EDITORS AND OPERATING SYSTEM FILES
+# ==========================================
+
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ==========================================
+# OPTIONAL LOCAL ENVIRONMENT FILES
+# ==========================================
+
+*.local
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
